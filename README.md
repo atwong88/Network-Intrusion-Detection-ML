@@ -1,29 +1,15 @@
-# CMPT726 IntrusionDetection
+# Network Intrusion Detection Using Various Deep Learning Approaches
 
-Dataset and paper: https://drive.google.com/drive/folders/1wyQup30XLaSLV4NdMXhF2qD8lnGUqe2G
+Project By: Kamila Bekshentayeva, Matthew Canute, Young-min Kim, Donggu Lee, Adriena Wong
+December 2019
 
-More datasets (CICIDS 2017 and NSL KDD) https://drive.google.com/drive/folders/1YhV3HPRtpJqqWB7u09Uet42tWZms14BE?usp=sharing
 
-Link to edit the project report: https://www.overleaf.com/5983747223vcgvrjkrhkqj
+This project explores the potential degradation of machine learning models given the changing network security landscape, defined by a constant battle between adversaries and network intrusion detection systems, which are adapting to evolving cyber-threats. 
 
-our poster is here:
-https://drive.google.com/drive/u/1/folders/1YhV3HPRtpJqqWB7u09Uet42tWZms14BE
+Several deep learning models were used:
+1. Feed Forward Neural Networks (FFNN)
+2. Long Short-Term Memory Networks (LSTM)
+3. Echo StateNetworks (ESN)
+The three models were tested on CSE-CICIDS2018 data set (https://www.unb.ca/cic/datasets/ids-2018.html), where the most important features were extracted to enhance detection of denial of service (DoS) attacks.
 
-(Collaborative One-Drive version of Poster)
-https://1drv.ms/p/s!Ah7EVI20F--dhM0m5v4NOYH-n_dljw?e=LwWZXD
-
-Project plan:
- <img src="Pictures/Cmpt726ProjectPlanUpdated.jpg">
- 
- 
- How to add files to git:
-  <img src="Pictures/AddingToRepo.png">
-
-Next steps:
-<img src="Pictures/NextTasks.png">
-
-Next Next steps:
-<img src="Pictures/NextNextTasks.png">
-
-Poster Design:
-<img src="Pictures/PosterDesign.png">
+The performance of the models was evaluated based on accuracy and F1 score.
