@@ -14,3 +14,5 @@ Several deep learning models were used:
 The three models were tested on CSE-CICIDS2018 data set (https://www.unb.ca/cic/datasets/ids-2018.html), where the most important features were extracted to enhance detection of denial of service (DoS) attacks.
 
 The performance of the models was evaluated based on accuracy and F1 score.
+
+Please see report.pdf in the repo for the final project report.
