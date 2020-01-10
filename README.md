@@ -1,6 +1,7 @@
 # Network Intrusion Detection Using Various Deep Learning Approaches
 
 Project By: Kamila Bekshentayeva, Matthew Canute, Young-min Kim, Donggu Lee, Adriena Wong
+
 December 2019
 
 
